@@ -1,0 +1,18 @@
+body {
+  background-color: gray;
+}
+
+#content {
+  padding: 20px;
+  width: 800px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background-color: green;
+  border: 1px solid black;
+}
+
+textarea {
+  height: 150px;
+  width: 300px;
+  font-size: 1.2em;
+}

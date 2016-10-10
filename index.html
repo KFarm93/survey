@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div id="content">
+    <form action="submit.php">
+      What is your name?
+      <input type="text"
+      name="nameEntered">
+      <br><br>
+      What is your gender?
+      <label>Male
+        <input type="radio"
+        name="genderEntered" value="Male">
+      </label>
+      <label>Female
+        <input type="radio"
+        name="genderEntered" value="Female">
+      </label>
+      <br><br>
+      What is your password?
+      <input type="password"
+      name="passwordEntered">
+      <br><br>
+      Check all foods to the right that you like:
+      <label>Tacos
+        <input type="checkbox"
+          name="tacos" value="on">
+      </label>
+      <label>Fried Rice
+        <input type="checkbox"
+          name="fried_rice" value="on">
+      </label>
+      <label>Catfish
+        <input type="checkbox"
+          name="catfish" value="on">
+      </label>
+      <label>Sandwiches
+        <input type="checkbox"
+          name="sandwiches" value="on">
+      </label>
+      <label>Burgers
+        <input type="checkbox"
+          name="burgers" value="on">
+      </label>
+      <label>Fries
+        <input type="checkbox"
+          name="fries" value="on">
+      </label>
+      <br><br>
+      Which operating system do you use?
+    <select name="OS">
+      <option value="windows">Windows</option>
+      <option value="osx">OSX</option>
+      <option value="linux">Linux</option>
+      <option value="plan9">Plan 9</option>
+      <option value="other">Other</option>
+    </select>
+    <br><br>
+    Do you have any questions?
+    <br>
+    <textarea name="question"></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+</body>
+</html>
