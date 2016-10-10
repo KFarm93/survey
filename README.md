@@ -1,1 +1,1 @@
-A simple survey made using python.
+A simple survey.
